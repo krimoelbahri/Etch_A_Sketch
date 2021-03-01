@@ -1,7 +1,7 @@
 
 body{
     size: 100%;
-    background-image: url(images/vector-sketch-background-baby-stuff-born-concept-34921562.jpg) ;
+    background-image: url(/images/vector-sketch-background-baby-stuff-born-concept-34921562.jpg) ;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
