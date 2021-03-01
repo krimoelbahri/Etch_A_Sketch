@@ -1,0 +1,43 @@
+
+body{
+    size: 100%;
+    background-image: url(/icons/vector-sketch-background-baby-stuff-born-concept-34921562.jpg) ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-top: 50px;
+}
+h1{
+    color: rgb(34, 33, 33);
+    font-family:'Times New Roman', Times, serif ;
+}
+.header{
+    background-color: white;
+    margin: 0 auto;
+    padding: 0.5cm;
+    margin-bottom: 20px;
+    text-align: center;
+    transform : rotate(-15deg);
+    
+}
+button {
+    width: 3cm;
+    height: 1.2cm;
+    border: red solid;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: medium;
+}
+img{
+    background: transparent;
+}
+
+#gridContainer{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 3px solid rgb(117, 30, 30);
+    background-color: white;
+}
+
