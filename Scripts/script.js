@@ -48,9 +48,3 @@
                 a.style.backgroundColor = 'white';
         })
     }
-
-    
-    
-
-    
-    
