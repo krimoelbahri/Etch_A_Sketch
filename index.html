@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="flexR" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +7,24 @@
     <title>Etch-A-Sketch</title>
     <link rel="stylesheet" href="Stylesheets/main.css">
 </head>
-<body>
-    <div class="header">
+<body class="flexR">
+    <div class="header flexC" >
         <img src="images/images (1).png" alt="Etch-A-Sketch picture ">
         <h1>Etch-A-Sketch</h1>
         <button id="changeScaleBtn">change scale</button>
+        <label for="range" class="range flexR">
+            <input type="range" min="2" max="64" id="rangeBtn">
+            <div id="scaleValue"></div>
+        </label>
+        <button id="random" class="rndmClr active">Random color</button>
+        <button id="shading" class="shadClr">Grey Shading</button>
         <button id="clearBtn">Clear</button>
-
+        <button id="eraseBtn" class="erase">Erase</button>
     </div>
-
-    <div id="gridContainer">
-        
+    <div id="content" class="flexC">
+        <p>Click on the grids to start/stop drawing</p>
+        <div id="gridContainer" class="container"></div>
     </div>
-
 <script src="Scripts/script.js"></script>
 </body>
 </html>
