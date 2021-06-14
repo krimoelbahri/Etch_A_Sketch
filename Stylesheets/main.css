@@ -1,43 +1,78 @@
-
-body{
-    size: 100%;
-    background-image: url(../images/vector-sketch-background-baby-stuff-born-concept-34921562.jpg) ;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    margin-top: 50px;
+/* flex class*/
+.flexR {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
-h1{
-    color: rgb(34, 33, 33);
-    font-family:'Times New Roman', Times, serif ;
+.flexC {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
-.header{
-    background-color: white;
-    margin: 0 auto;
-    padding: 0.5cm;
-    margin-bottom: 20px;
-    text-align: center;
-    transform : rotate(-15deg);
-    
+/* html elements*/
+html {
+	background-color: #bf9c8f;
+}
+body {
+	width: 1000px;
+	height: 600px;
+	justify-content: space-around;
+}
+h1 {
+	color: rgb(34, 33, 33);
+	font-family: "Times New Roman", Times, serif;
+}
+img {
+	width: 50%;
+	height: 20%;
 }
 button {
-    width: 3cm;
-    height: 1.2cm;
-    border: red solid;
-    border-radius: 10%;
-    font-weight: bold;
-    font-size: medium;
+	width: 70%;
+	height: 10%;
+	border-radius: 5%;
+	border: solid #d9bdad;
+	font-weight: bold;
+	font-size: medium;
 }
-img{
-    background: transparent;
+p {
+	font-weight: bolder;
+	font-size: large;
 }
-
-#gridContainer{
-    margin: 0 auto;
-    width: 500px;
-    height: 500px;
-    display: grid;
-    border: 3px solid rgb(117, 30, 30);
-    background-color: white;
+/* Id*/
+#content {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	justify-content: space-evenly;
 }
-
+#scaleValue {
+	border: solid #d9bdad;
+	background-color: white;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+}
+/* classes*/
+.container {
+	margin: 0 auto;
+	width: 85%;
+	height: 85%;
+	display: grid;
+	border: solid #d9bdad;
+	background-color: white;
+}
+.header {
+	background-color: transparent;
+	width: 30%;
+	height: 70%;
+	justify-content: space-between;
+}
+.range {
+	width: 90%;
+	justify-content: space-around;
+}
+.active {
+	border: solid #e76f51;
+}
