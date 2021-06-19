@@ -47,7 +47,7 @@
         scaleDiv.textContent='';
         scaleDiv.textContent=`${scaleValue}`;
     }
-    showScaleValue;
+    showScaleValue();
     const eraseGrids= function() {
         document.querySelectorAll('.squareDiv').forEach((element)=>{element.remove()});
     }
