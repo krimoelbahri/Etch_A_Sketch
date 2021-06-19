@@ -21,6 +21,7 @@ body {
 	justify-content: space-around;
 }
 h1 {
+	text-align: center;
 	color: rgb(34, 33, 33);
 	font-family: "Times New Roman", Times, serif;
 }
@@ -37,6 +38,7 @@ button {
 	font-size: medium;
 }
 p {
+	text-align: center;
 	font-weight: bolder;
 	font-size: large;
 }
